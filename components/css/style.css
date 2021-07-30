@@ -1,0 +1,152 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/************variables***********/
+/*********variables****************/
+/********header*********/
+header {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #00ced1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .cbse-logo {
+  width: 70px;
+  height: 70px;
+}
+
+header .cbse-logo img {
+  width: 70px;
+  height: 70px;
+}
+
+header .cbse-name-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 70px;
+  padding-top: 18px;
+}
+
+header .cbse-name-sec .hindi {
+  width: 250px;
+  height: 25px;
+}
+
+header .cbse-name-sec .english {
+  width: 400px;
+  height: 25px;
+}
+
+header .cbse-link {
+  position: absolute;
+  right: 1%;
+}
+
+header .cbse-link h4 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/*********header*******/
+/********cbse top section********/
+.top-section {
+  position: relative;
+  width: 1366px;
+  height: 130px;
+}
+
+.top-section .result-button {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+}
+
+.top-section .result-heading {
+  position: absolute;
+  font-weight: bold;
+  right: 1%;
+  font-family: "Roboto", sans-serif;
+  color: #373abe;
+  font-weight: 700;
+}
+
+.top-section .discription {
+  position: absolute;
+  right: 0%;
+  font-weight: bold;
+  top: 70px;
+  color: #373abe;
+  font-size: 1.2rem;
+}
+
+/********cbse top section***********/
+/*********link-section**************/
+.link-section {
+  width: 100%;
+  padding: 28px 38px;
+}
+
+.link-section ul {
+  list-style: square inside url("../img/bullet.gif");
+}
+
+.link-section ul li a {
+  color: #373abe;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.88rem;
+}
+
+.link-section ul li span {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 0.78rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/**************link-section***************/
+.bottom-section {
+  margin: 100px auto;
+  width: 1300px;
+  height: 30px;
+  text-align: center;
+  border-top: 1px solid #707070;
+  padding: 10px 0;
+}
+
+.bottom-section p {
+  font-size: 0.9rem;
+}
+
+.bottom-section p span {
+  font-weight: bold;
+}
+
+.bottom-section .designer-section {
+  background-color: #c2dbf8;
+  padding: 6px 0;
+  padding-top: 0%;
+}
+
+.bottom-section .designer-section p {
+  font-weight: bold;
+}
+
+/************bottom-section************/
+/*# sourceMappingURL=style.css.map */

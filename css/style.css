@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/********* variables************/
+/**********variable************/
+/***********mixins********/
+/************mixins**********/
+body {
+  background-image: url("../img/bnr8.jpg");
+}
+
+/*************logo************/
+.cbse-logo {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 0%;
+}
+
+.cbse-logo img {
+  width: 15%;
+}
+
+.cbse-title {
+  width: 100%;
+  text-align: center;
+}
+
+.cbse-title img {
+  width: 60%;
+}
+
+/************link card section****************/
+.cbse-link {
+  width: 100%;
+  height: auto;
+}
+
+.cbse-link .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cbse-link .row .btn-grid {
+  text-align: center;
+}
+
+.cbse-link .row .btn-grid a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 10px 10px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#314755), color-stop(#26a0da), to(#314755));
+  background-image: linear-gradient(to left, #314755, #26a0da, #314755);
+  background-size: 200% auto;
+  width: 250px;
+  height: 160px;
+  font-family: "Roboto", sans-serif;
+  padding: 50px 0;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 20px #fff;
+          box-shadow: 0 0 20px #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.cbse-link .row .btn-grid a:hover {
+  background-position: right;
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/*********link card section*****************/
+/**********cbse-counter**************/
+.cbse-counter {
+  width: 100%;
+  height: auto;
+  padding: 70px 0;
+}
+
+.cbse-counter .cbse-heading {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.cbse-counter .cbse-heading h3 {
+  color: #17a2b8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.cbse-counter .cbse-heading img {
+  margin-top: 5px;
+}
+
+/*************cbse-counter***************/
+/*# sourceMappingURL=style.css.map */

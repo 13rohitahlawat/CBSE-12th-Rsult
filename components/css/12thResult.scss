@@ -1,0 +1,153 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/************variables***********/
+
+$primary-color: #00ced1;
+$text-color: #373abe;
+$text-color2: #ff0052;
+$font-family: "Roboto", sans-serif;
+
+/*********variables****************/
+
+/********header*********/
+
+header {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: $primary-color;
+  display: flex;
+
+  .cbse-logo {
+    width: 70px;
+    height: 70px;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .cbse-name-sec {
+    //  border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 70px;
+    padding-top: 18px;
+
+    .hindi {
+      width: 250px;
+      height: 25px;
+    }
+    .english {
+      width: 400px;
+      height: 25px;
+    }
+  }
+
+  .cbse-link {
+    position: absolute;
+    right: 1%;
+    h4 {
+      font-family: $font-family;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+}
+
+/*********header*******/
+
+/********cbse top section********/
+
+.top-section {
+  // border: 1px solid black;
+  width: 90%;
+  margin: 0% auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+
+  h4 {
+    font-family: $font-family;
+    font-size: 0.8rem;
+  }
+}
+
+/********cbse top section***********/
+
+/*********link-section**************/
+
+.result-section {
+  width: 100%;
+  border-bottom: 1px solid rgb(112, 112, 112);
+  padding: 20px 0;
+
+  h4 {
+    text-align: center;
+    font-family: $font-family;
+    color: $text-color;
+  }
+  .result {
+    width: 100%;
+    // border: 1px solid red;
+    text-align: center;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .another-link {
+    text-align: center;
+
+    a {
+      font-family: $font-family;
+      font-weight: 500;
+    }
+  }
+
+  .bottom-note {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-family: $font-family;
+    font-weight: 700;
+  }
+}
+
+/**************link-section***************/
+
+.bottom-section {
+  margin: 10px auto;
+  width: 1300px;
+  height: 30px;
+  text-align: center;
+  border-top: 1px solid rgb(112, 112, 112);
+  padding: 10px 0;
+
+  p {
+    font-size: 0.9rem;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .designer-section {
+    background-color: #c2dbf8;
+    padding: 6px 0;
+    padding-top: 0%;
+
+    p {
+      font-weight: bold;
+    }
+  }
+}
+
+/************bottom-section************/

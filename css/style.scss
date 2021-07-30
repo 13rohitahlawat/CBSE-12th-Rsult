@@ -1,0 +1,113 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/********* variables************/
+$primary-color: #17a2b8;
+$white-color: #fff;
+$font-family: "Roboto", sans-serif;
+/**********variable************/
+
+/***********mixins********/
+
+@mixin flexy($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+/************mixins**********/
+
+body {
+  background-image: url("../img/bnr8.jpg");
+}
+
+/*************logo************/
+
+.cbse-logo {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 0%;
+
+  img {
+    width: 15%;
+  }
+}
+
+.cbse-title {
+  width: 100%;
+  text-align: center;
+
+  img {
+    width: 60%;
+  }
+}
+
+/************link card section****************/
+
+.cbse-link {
+  width: 100%;
+  height: auto;
+  .row {
+    @include flexy(center, center);
+
+    .btn-grid {
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: $white-color;
+        display: inline-block;
+        margin: 10px 10px;
+        background-image: linear-gradient(to left, #314755, #26a0da, #314755);
+        background-size: 200% auto;
+        width: 250px;
+        height: 160px;
+        font-family: $font-family;
+        padding: 50px 0;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        box-shadow: 0 0 20px $white-color;
+        transition: all 0.5s ease;
+
+        &:hover {
+          background-position: right;
+          text-decoration: underline;
+          color: #0056b3;
+        }
+      }
+    }
+  }
+}
+
+/*********link card section*****************/
+
+/**********cbse-counter**************/
+
+.cbse-counter {
+  width: 100%;
+  height: auto;
+  // border: 1px solid black;
+  padding: 70px 0;
+
+  .cbse-heading {
+    // border: 1px solid black;
+    padding: 70px 0;
+    text-align: center;
+
+    h3 {
+      color: #17a2b8;
+      font-family: $font-family;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    img {
+      margin-top: 5px;
+    }
+  }
+}
+
+/*************cbse-counter***************/
